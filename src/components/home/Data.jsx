@@ -60,7 +60,7 @@ const Data = () => {
             Love teaching and exploring new technologies. 
         </p>
 
-        <a href="#contact" className="button button--flex">Say Hello
+        <a href="#contact" className="button button--flex button-say-hello" >Say Hello
             
             <svg
                   class="button__icon"
