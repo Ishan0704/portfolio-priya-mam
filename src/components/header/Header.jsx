@@ -24,8 +24,8 @@ const Header =() => {
                         </li>
 
                         <li className="nav__item">
-                            <a href="#skills" className="nav__link">
-                                <i className="uil uil-file-alt nav__icon"></i> Skills
+                            <a href="#qualification" className="nav__link">
+                                <i className="uil uil-file-alt nav__icon"></i> Qualification
                             </a>
                         </li>
 
@@ -51,7 +51,7 @@ const Header =() => {
                     <i class="uil uil-times nav__close" onClick={()=>showMenu(!Toggle)}></i>
                 </div>
 
-                <nav className="toggle" onClick={()=>showMenu(!Toggle)}>
+                <nav className="nav__toggle" onClick={()=>showMenu(!Toggle)}>
                     <i class="uil uil-apps"></i>    
                 </nav>
             </nav>
