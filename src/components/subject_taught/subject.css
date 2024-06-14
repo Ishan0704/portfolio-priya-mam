@@ -1,6 +1,7 @@
 .subject__container{
-    grid-template-columns: repeat(2,250px);
+    grid-template-columns: repeat(3,300px);
     gap: 1rem;
+    
 }
 
 .subject__content{
@@ -115,3 +116,36 @@
     visibility: visible;
 }
 
+
+/*=============== BREAKPOINTS ===============*/
+
+@media screen and (max-width: 992px) {
+    
+    .subject__container{
+        grid-template-columns: repeat(2,0.5fr);
+        gap: 1rem;
+        justify-self: center;
+    }
+    
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    
+    
+  }
+ 
+  @media screen and (max-width: 576px) {
+    
+    .subject__container{
+        grid-template-columns: repeat(1,1fr);
+        gap: 1rem;
+        justify-self: center;
+    }
+  }
+  
+  @media screen and (max-width: 350px) {
+    
+    
+  }
+  
