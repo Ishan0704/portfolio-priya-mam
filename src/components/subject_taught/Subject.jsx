@@ -16,7 +16,8 @@ const Subject = () => {
       <div className="subject__container container grid">
         <div className="subject__content">
           <div>
-            <i className="uil uil-web-grid subject__icon"></i>
+            {/* <i className="uil uil-web-grid subject__icon"></i> */}
+            <i class="fa-solid fa-globe subject__icon"></i>
             <h3 className="subject__title">Web Technology</h3>
           </div>
           <span className="subject__button" onClick={() => toggleTab(1)}>
@@ -60,7 +61,8 @@ const Subject = () => {
 
         <div className="subject__content">
           <div>
-            <i className="uil uil-window subject__icon"></i>
+            {/* <i className="uil uil-window subject__icon"></i> */}
+            <i class="fa-solid fa-network-wired subject__icon"></i>
             <h3 className="subject__title">Computer Networks</h3>
           </div>
           <span className="subject__button" onClick={() => toggleTab(2)}>
@@ -104,7 +106,8 @@ const Subject = () => {
 
         <div className="subject__content">
           <div>
-            <i className="uil uil-window subject__icon"></i>
+            {/* <i className="uil uil-window subject__icon"></i> */}
+            <i class="fa-brands fa-wpexplorer subject__icon"></i>
             <h3 className="subject__title">Engineering Exploration</h3>
           </div>
           <span className="subject__button" onClick={() => toggleTab(3)}>
@@ -148,7 +151,9 @@ const Subject = () => {
 
         <div className="subject__content">
           <div>
-            <i className="uil uil-window subject__icon"></i>
+            {/* <i className="uil uil-window subject__icon"></i> */}
+            {/* <i class="fa-light fa-laptop-code subject__icon"></i> */}
+            <i class="fa-solid fa-desktop subject__icon"></i>
             <h3 className="subject__title">Programming in C</h3>
           </div>
           <span className="subject__button" onClick={() => toggleTab(4)}>
@@ -192,7 +197,8 @@ const Subject = () => {
 
         <div className="subject__content">
           <div>
-            <i className="uil uil-window subject__icon"></i>
+            {/* <i className="uil uil-window subject__icon"></i> */}
+            <i class="fa-solid fa-laptop-code subject__icon"></i>
             <h3 className="subject__title">Programming in C++</h3>
           </div>
           <span className="subject__button" onClick={() => toggleTab(5)}>
@@ -236,7 +242,8 @@ const Subject = () => {
 
         <div className="subject__content">
           <div>
-            <i className="uil uil-window subject__icon"></i>
+            {/* <i className="uil uil-window subject__icon"></i> */}
+            <i class="fa-solid fa-chart-line subject__icon"></i>
             <h3 className="subject__title">Design and Analysis of Algorithms</h3>
           </div>
           <span className="subject__button" onClick={() => toggleTab(6)}>
@@ -280,7 +287,8 @@ const Subject = () => {
 
         <div className="subject__content">
           <div>
-            <i className="uil uil-window subject__icon"></i>
+            {/* <i className="uil uil-window subject__icon"></i> */}
+            <i class="fa-solid fa-envelope-circle-check subject__icon"></i>
             <h3 className="subject__title">Project Based Learning</h3>
           </div>
           <span className="subject__button" onClick={() => toggleTab(7)}>
@@ -324,7 +332,8 @@ const Subject = () => {
 
         <div className="subject__content">
           <div>
-            <i className="uil uil-window subject__icon"></i>
+            {/* <i className="uil uil-window subject__icon"></i> */}
+            <i class="fa-solid fa-shield subject__icon"></i>
             <h3 className="subject__title">Design Thinking</h3>
           </div>
           <span className="subject__button" onClick={() => toggleTab(8)}>
