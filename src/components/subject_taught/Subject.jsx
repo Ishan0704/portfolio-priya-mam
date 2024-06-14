@@ -289,7 +289,7 @@ const Subject = () => {
           <div>
             {/* <i className="uil uil-window subject__icon"></i> */}
             <i class="fa-solid fa-envelope-circle-check subject__icon"></i>
-            <h3 className="subject__title">Project Based Learning</h3>
+            <h3 className="subject__title">Design Thinking &<br/> Project Based Learning</h3>
           </div>
           <span className="subject__button" onClick={() => toggleTab(7)}>
             View More
@@ -298,8 +298,8 @@ const Subject = () => {
           <div className={toggleState === 7 ? "subject__modal active-modal" : "subject__modal"}>
             <div className="subject__modal-content">
               <i onClick={() => toggleTab(null)} className="uil uil-times subject__modal-close"></i>
-              <h3 className="subject__modal-title">Project Based Learning</h3>
-              <p className="subject__modal-description">Syllabus of Project Based Learning</p>
+              <h3 className="subject__modal-title">Design Thinking &<br/> Project Based Learning</h3>
+              <p className="subject__modal-description">Syllabus of Design Thinking &<br/> Project Based Learning</p>
               <ul className="subject__modal-units grid">
                 <li className="subject__modal-unit">
                   <i className="uil uil-check-circle subject__modal-icon"></i>
@@ -329,52 +329,6 @@ const Subject = () => {
             </div>
           </div>
         </div>
-
-        <div className="subject__content">
-          <div>
-            {/* <i className="uil uil-window subject__icon"></i> */}
-            <i class="fa-solid fa-shield subject__icon"></i>
-            <h3 className="subject__title">Design Thinking</h3>
-          </div>
-          <span className="subject__button" onClick={() => toggleTab(8)}>
-            View More
-            <i className="uil uil-arrow-right subject__button-icon"></i>
-          </span>
-          <div className={toggleState === 8 ? "subject__modal active-modal" : "subject__modal"}>
-            <div className="subject__modal-content">
-              <i onClick={() => toggleTab(null)} className="uil uil-times subject__modal-close"></i>
-              <h3 className="subject__modal-title">Design Thinking</h3>
-              <p className="subject__modal-description">Syllabus of Design Thinking</p>
-              <ul className="subject__modal-units grid">
-                <li className="subject__modal-unit">
-                  <i className="uil uil-check-circle subject__modal-icon"></i>
-                  <p className="subject__modal-info">Unit I -</p>
-                </li>
-                <li className="subject__modal-unit">
-                  <i className="uil uil-check-circle subject__modal-icon"></i>
-                  <p className="subject__modal-info">Unit II -</p>
-                </li>
-                <li className="subject__modal-unit">
-                  <i className="uil uil-check-circle subject__modal-icon"></i>
-                  <p className="subject__modal-info">Unit III -</p>
-                </li>
-                <li className="subject__modal-unit">
-                  <i className="uil uil-check-circle subject__modal-icon"></i>
-                  <p className="subject__modal-info">Unit IV -</p>
-                </li>
-                <li className="subject__modal-unit">
-                  <i className="uil uil-check-circle subject__modal-icon"></i>
-                  <p className="subject__modal-info">Unit V -</p>
-                </li>
-                <li className="subject__modal-unit">
-                  <i className="uil uil-check-circle subject__modal-icon"></i>
-                  <p className="subject__modal-info">Unit VI -</p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
       </div>
     </section>
   );
