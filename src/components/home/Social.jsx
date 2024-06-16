@@ -8,15 +8,15 @@ const Social = () => {
         </a>
 
         <a href="" className="home__social-icon" target="_blank">
-             <i class="uil uil-twitter"></i>
+          <i class="uil uil-twitter"></i>
         </a>
         
         <a href="" className="home__social-icon" target="_blank">
-             <i class="uil uil-facebook"></i>
+          <i class="uil uil-facebook"></i>
         </a>
 
         <a href="" className="home__social-icon" target="_blank">
-        <i class="uil uil-linkedin"></i>
+          <i class="uil uil-linkedin"></i>
         </a>
     </div>   
   )
