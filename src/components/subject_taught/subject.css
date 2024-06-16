@@ -104,8 +104,8 @@
     column-gap: 0.5rem;
 }
 
-.subject__modal_icon{
-    color: var(--title-color);
+.subject__modal-icon{
+    color:green;
     font-size: 1rem;
 }
 
