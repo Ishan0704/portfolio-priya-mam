@@ -21,7 +21,7 @@
 }
 
 .work__container{
-    grid-template-columns: repeat(2, max-content);
+    grid-template-columns: repeat(3, max-content);
     gap: 3rem;
     justify-content: center;
 }
@@ -67,3 +67,45 @@
     background-color: var(--title-color);
     color: var(--container-color);
 }
+
+
+
+/*=============== BREAKPOINTS ===============*/
+
+@media screen and (max-width: 1024px) {
+    
+    .work__container{
+        grid-template-columns: repeat(3, max-content);
+        gap: 1rem;
+    }
+    .work__img{
+        width: 200px;
+    }
+    
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .work__container{
+        grid-template-columns: repeat(2, max-content);
+        gap: 1rem;
+    }
+    .work__img{
+        width: 150px;
+    }
+    
+  }
+ 
+  @media screen and (max-width: 576px) {
+    
+    
+  }
+  
+  @media screen and (max-width: 350px) {
+    
+    .work__img{
+        width: 100px;
+    }
+    
+  }
+  
