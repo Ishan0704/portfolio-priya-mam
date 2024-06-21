@@ -7,6 +7,7 @@ import Subject from './components/subject_taught/Subject';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Qualification from './components/qualification/Qualification';
+import Work from './components/work/Work';
 
 const App =() =>{
   return (
@@ -18,6 +19,7 @@ const App =() =>{
         <About/>
         <Qualification/>
         <Subject/>
+        <Work/>
         <Contact/>
         <Footer/>
       </main>
