@@ -53,6 +53,7 @@
     display: flex;
     align-items: center;
     column-gap: 0.25rem;
+    background-color: var(--body-color);
 }
 
 .work__button-icon{
@@ -148,6 +149,9 @@
         grid-template-columns: repeat(2,max-content);
         gap: 1rem;
     }
+    .modal-content {
+        max-width: 330px; 
+    }
     
   }
   
@@ -160,10 +164,12 @@
         padding: 1rem;
         grid-template-columns: repeat(2,max-content);
         gap: 0.6rem;
-        
     }
     .work__item{
         padding: 0.25rem;
+    }
+    .modal-content {
+        max-width: 280px; 
     }
     
   }
