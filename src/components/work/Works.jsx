@@ -1,55 +1,67 @@
-import React, { useEffect, useState } from 'react'
-import { projectsData } from './Data'
-import { projectsNav } from './Data'
-import WorkItems from './WorkItems'
+// Works.js
+import React, { useEffect, useState } from 'react';
+import { projectsData, projectsNav } from './Data';
+import WorkItems from './WorkItems';
+import Modal from './Modal';
 
 const Works = () => {
+  const [item, setItem] = useState({ name: 'all' });
+  const [projects, setProjects] = useState([]);
+  const [active, setActive] = useState(0);
+  const [showModal, setShowModal] = useState(false);
+  const [selectedProject, setSelectedProject] = useState(null);
 
-    const [item, setItem] = useState({ name: 'all' });
-    const [projects, setProjects] = useState([]);
-    const [active, setActive] = useState(0);
-
-    useEffect(() => {
-        if (item.name === 'all') {
-            setProjects(projectsData);
-        } else {
-            const newProjects = projectsData.filter((project) => {
-                return project.category === item.name;
-            });
-            setProjects(newProjects);
-        }
-    }, [item]);
-
-    const handleClick = (e, index) => {
-        setItem({ name: e.target.textContent });
-        setActive(index);
+  useEffect(() => {
+    if (item.name === 'all') {
+      setProjects(projectsData);
+    } else {
+      const newProjects = projectsData.filter((project) => {
+        return project.category === item.name;
+      });
+      setProjects(newProjects);
     }
+  }, [item]);
 
-    return (
-        <div>
-            <div className="work__filters">
-                {projectsNav.map((item, index) => {
-                    return (
-                        <span
-                            onClick={(e) => {
-                                handleClick(e, index);
-                            }}
-                            className={`work__item ${active === index ? 'active-work' : ''}`}
-                            key={index}
-                        >
-                            {item.name}
-                        </span>
-                    )
-                })}
-            </div>
+  const handleClick = (e, index) => {
+    setItem({ name: e.target.textContent });
+    setActive(index);
+  };
 
-            <div className="work__container container grid">
-                {projects.map((item) => {
-                    return <WorkItems item={item} key={item.id} />
-                })}
-            </div>
-        </div>
-    )
-}
+  const openModal = (project) => {
+    setSelectedProject(project);
+    setShowModal(true);
+  };
 
-export default Works
+  const closeModal = () => {
+    setShowModal(false);
+    setSelectedProject(null);
+  };
+
+  return (
+    <div>
+      <div className="work__filters">
+        {projectsNav.map((item, index) => (
+          <span
+            onClick={(e) => handleClick(e, index)}
+            className={`work__item ${active === index ? 'active-work' : ''}`}
+            key={index}
+          >
+            {item.name}
+          </span>
+        ))}
+      </div>
+
+      <div className="work__container container grid">
+        {projects.map((project) => (
+          <WorkItems item={project} key={project.id} onDemoClick={() => openModal(project)} />
+        ))}
+      </div>
+
+      {selectedProject && (
+        <Modal show={showModal} onClose={closeModal} project={selectedProject} />
+      )}
+    </div>
+  );
+};
+
+export default Works;
