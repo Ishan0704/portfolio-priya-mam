@@ -42,13 +42,32 @@ export const projectsNav = [
         name: 'all',
     },
     {
-        name: 'web',
+        name: 'News',
     },
     {
-        name: 'app',
+        name: 'Publication',
     },
     {
-        name: 'design',
+        name: 'Social',
     },
+    {
+        name: 'Certificates',
+    },
+    {
+        name: 'Achievements',
+    },
+    {
+        name: 'Career Details',
+    },
+    {
+        name: 'Career Guidelines',
+    },
+    {
+        name: 'Project Guided',
+    },
+    {
+        name: 'Pantent & Copyrights',
+    },
+
 ];
 
