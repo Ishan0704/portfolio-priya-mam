@@ -70,7 +70,7 @@ const Qualification = () => {
                         <span className="qualifiction__subtitle"></span>
 
                         <div className="qualification__calender">
-                            <i className="uil uil-calender-alt"></i>
+                            <i className="uil uil-calender-alt"></i> 2013
                         </div>
                     </div>
 
@@ -82,7 +82,7 @@ const Qualification = () => {
             </div>
 
             <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
-                <div className="qualification__data">
+                {/* <div className="qualification__data">
                     <div>
                         <h3 className="qualification__title">Lecturer</h3>
                         <span className="qualifiction__subtitle">K. K. Wagh Polytechnic</span>
@@ -96,7 +96,7 @@ const Qualification = () => {
                         <span className="qualification__rounder"></span>
                         <span className="qualification__line"></span>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="qualification__data">
                     
@@ -109,10 +109,10 @@ const Qualification = () => {
                     
                     <div>
                         <h3 className="qualification__title">Assistant Professor</h3>
-                        <span className="qualifiction__subtitle">K. K. W. I. E. E. R</span>
+                        <span className="qualifiction__subtitle">K. K. Wagh Educational Society</span>
 
                         <div className="qualification__calender">
-                            <i className="uil uil-calender-alt"></i>2019-Present
+                            <i className="uil uil-calender-alt"></i>2013-Present
                         </div>
                     </div>
                 </div>
