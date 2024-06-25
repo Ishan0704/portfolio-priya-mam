@@ -109,6 +109,8 @@
   
   .modal-title{
     margin-bottom: var(--mb-2);
+    color: var(--text-color);
+    margin-top: var(--mb-2);
   }
   
 

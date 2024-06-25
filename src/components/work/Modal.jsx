@@ -10,9 +10,9 @@ const Modal = ({ show, onClose, project }) => {
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         <span className="close-icon" onClick={onClose}>&times;</span>
-        <h2 className='modal-title'>{project.title}</h2>
-        <img src={project.image} alt={project.title} className="modal-img" />
-        <p>More details about the project can go here.</p>
+        <h4 className='modal-title'><i>{project.modal_heading}</i></h4>
+        
+        <p className='details'>{project.details}</p>
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ const WorkItems = ({ item, onDemoClick }) => {
       <img src={item.image} alt={item.title} className="work__img" />
       <h3 className="work__title">{item.title}</h3>
       <button className="work__button" onClick={onDemoClick}>
-        Demo <i className="bx bx-right-arrow-alt work__button-icon"></i>
+        View More<i className="bx bx-right-arrow-alt work__button-icon"></i>
       </button>
     </div>
   );
