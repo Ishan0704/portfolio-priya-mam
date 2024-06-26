@@ -43,164 +43,6 @@ import story3 from '../../assets/career guidelines/story3.png';
 
 export const projectsData = [
    
-    // Publication id's from  1-19
-    {
-        id: 221,
-        image: ICTIEE,
-        title: 'Paper 1',
-        modal_heading:'Title - “Providing adaptable curriculum enrichment through Teaching-Learning-Evaluation”',
-        details: 'Publication - ICTIEE 2023 (Selected for conference held in Mysore on 6th January 2023)',
-        category: 'Publication',
-    },
-    {
-        id: 222,
-        image: IJRAR,
-        title: 'Paper 2',
-        modal_heading:'Title -“Future of Self Driving Vehicles in India”',
-        details: 'Publication -  IJRAR, 2022 ',
-        category: 'Publication',
-    },
-    {
-        id: 223,
-        image: IJRAR,
-        title: 'Paper 3',
-        modal_heading:'Title -“Review paper on “Data transmission for underwater communication using Li-Fi”',
-        details: 'Publication -  IJRAR, 2022 ',
-        category: 'Publication',
-    },
-    {
-        id: 224,
-        image: ICTACT,
-        title: 'Paper 4',
-        modal_heading:'Title -“Role of educational institutions for Atmanirbhar Bharat ”',
-        details: 'Publication - ICTACT,2022',
-        category: 'Publication',
-    },
-    
-    {
-        id: 225,
-        image: Work1,
-        title: 'Paper 5',
-        modal_heading:'Title -“Review paper on methodologies of tracking and monitoring of carbon credit',
-        details: 'Publication -  Will update soon ',
-        category: 'Publication',
-    },
-    {
-        id: 226,
-        image: ICTACT,
-        title: 'Paper 6',
-        modal_heading:'Title -“Review paper on monitoring Animal migration on earth using scientific equipment on the ISS RS”',
-        details: 'Publication -  ICTACT, 2022  ',
-        category: 'Publication',
-    },
-    {
-        id: 227,
-        image: Work1,
-        title: 'Paper 7',
-        modal_heading:'Title - “Review Paper on Crowd Management Using Mob-Analyzer”',
-        details: 'Publication -   Will update soon ', // JEITSM,2022
-        category: 'Publication',
-    },
-    {
-        id: 228,
-        image: ICTACT,
-        title: 'Paper 8',
-        modal_heading:'Title -“Review paper on Screen less Display”',
-        details: 'Publication -   ICTACT, 2022  ',
-        category: 'Publication',
-    },
-    {
-        id: 229,
-        image: ICTACT,
-        title: 'Paper 9',
-        modal_heading:'Title -“Review paper on monitoring forest by remote sensing”',
-        details: 'Publication -  ICTACT, 2022',
-        category: 'Publication',
-    },
-    {
-        id: 210,
-        image: ICTACT,
-        title: 'Paper 10',
-        modal_heading:'Title -“5G Frameworks & Network Management using AI”',
-        details: 'Publication -  ICTACT,2022 ',
-        category: 'Publication',
-    },
-    {
-        id: 211,
-        image: CPGCON,
-        title: 'Paper 11',
-        modal_heading:'Title -“Development of Recommender System based on Meta-Algorithmic Approach”',
-        details: 'Publication -  CPGCON 16  ',
-        category: 'Publication',
-    },
-   
-    {
-        id: 122,
-        image: ICTACT,
-        title: 'Paper 12',
-        modal_heading:'Title -“Review paper on a Block chain as a cyber defence”',
-        details: 'Publication -   ICTACT, 2022',
-        category: 'Publication',
-    },
-    
-    {
-        id: 123,
-        image: Work1,
-        title: 'Paper 13',
-        modal_heading:'Title -“Technology and COVID – 19”',
-        details: 'Publication -  Will update soon ,2020 ',
-        category: 'Publication',
-    },
-    {
-        id: 124,
-        image: ICTACT,
-        title: 'Paper 14',
-        modal_heading:'Title -“Review paper on Hive Interface”',
-        details: 'Publication -   ICTACT, 2022  ',
-        category: 'Publication',
-    },
-    {
-        id: 125,
-        image: IJARCCE,
-        title: 'Paper 15',
-        modal_heading:'Title - “Meta-Algorithmic approach for development of recommender system”',
-        details: 'Publication -   IJARCCE, 2016 ',
-        category: 'Publication',
-    },
-    {
-        id: 126,
-        image: IJARCCE,
-        title: 'Paper 16',
-        modal_heading:'Title - “A Survey on Recommender System”',
-        details: 'Publication -  IJARCCE, 2016 ',
-        category: 'Publication',
-    },
-    {
-        id: 127,
-        image: ICRTET,
-        title: 'Paper 17',
-        modal_heading:'Title -“Opinion Mining - The Customer Review System”',
-        details: 'Publication -  ICRTET,2014 ',
-        category: 'Publication',
-    },
-    {
-        id: 128,
-        image: Work1,
-        title: 'Paper 18',
-        modal_heading:'Title - “Face identification based on lip movement features”',
-        details: 'Publication - will update soon , 2014 ',
-        category: 'Publication',
-    },
-    {
-        id: 129,
-        image: ICTIEE,
-        title: 'Paper 19',
-        modal_heading:'Title -“Providing adaptable curriculum enrichment through Teaching-Learning-Evaluation”',
-        details: ' Publication - ICTIEE 2023 (Selected for conference held in Mysore on 6th January 2023)',
-        category: 'Publication',
-    },
-    // Publication section finished 
-
     //Achievements section started
     {
         id: 1,
@@ -304,7 +146,7 @@ export const projectsData = [
         category: 'Achievements',
     },
     {
-        id: 9,
+        id: 11,
         image: techersHackathone,
         title: 'Finalist of techer\'s Hackathone',
         modal_heading:'Finalist of Teacher’s Hackathon(T-L-E :Teaching-Learning Evaluation) ',
@@ -314,7 +156,7 @@ export const projectsData = [
         category: 'Achievements',
     },
     {
-        id: 9,
+        id: 12,
         image: eyantra,
         title: 'e-Yantra IIT-Bombay',
         modal_heading:'Qualifying for the  Innovation Sprint of e-Yantra Innovation challenge 2022-2023',
@@ -324,7 +166,7 @@ export const projectsData = [
         category: 'Achievements',
     },
     {
-        id: 9,
+        id: 13,
         image: consultancy,
         title: 'consultancy in the area Web Development',
         modal_heading:'Received consultancy in the area Web Development',
@@ -337,7 +179,7 @@ export const projectsData = [
 
     //petants category Started
     {
-        id: 11,
+        id: 14,
         image: eyecontact,
         title: 'Aligning eye contact in display screens',
         modal_heading:'Title : A system and method for aligning eye contact in display screens during online meeting',
@@ -350,7 +192,7 @@ export const projectsData = [
 
     // Project Guided started
     {
-        id: 12,
+        id: 15,
         image: godapark,
         title: 'Project – Goda Park',
         modal_heading:'Title : Project – Goda Park – Based on Augmented reality and virtual reality (AR/VR) ',
@@ -360,7 +202,7 @@ export const projectsData = [
         category: 'Project Guided',
     },
     {
-        id: 13,
+        id: 16,
         image: deepblue,
         title: 'Project – Deep Blue',
         modal_heading:'Title : Project Deep Blue',
@@ -370,7 +212,7 @@ export const projectsData = [
         category: 'Project Guided',
     },
     {
-        id: 13,
+        id: 17,
         image: avishkar,
         title: 'Avishkar Research Competition',
         modal_heading:'Avishkar Research Competition',
@@ -380,7 +222,7 @@ export const projectsData = [
         category: 'Project Guided',
     },
     {
-        id: 13,
+        id: 18,
         image: inhouse,
         title: 'In-House(Society Level)Projects',
         modal_heading:'Involvement In-House(Society Level)Projects Development',
@@ -389,10 +231,11 @@ export const projectsData = [
         content:'',
         category: 'Project Guided',
     },
+    // project guided ended
 
-    //NEWS CATEGORY STARTED
+    //news started
     {
-        id: 89,
+        id: 19,
         image: article1,
         title: 'Article 1',
         modal_heading:'Published: - Opportunities in Artificial Intelligence (Dainik Punyanagari– 18th Jan 2022)',
@@ -402,7 +245,7 @@ export const projectsData = [
         category: 'News',
     },
     {
-        id: 89,
+        id: 20,
         image: article2,
         title: 'Article 2',
         modal_heading:'Some Of My published Articles',
@@ -412,7 +255,7 @@ export const projectsData = [
         category: 'News',
     },
     {
-        id: 89,
+        id: 21,
         image: article3,
         title: 'Article 3',
         modal_heading:'Some Of My published Articles',
@@ -425,7 +268,7 @@ export const projectsData = [
 
     // career guided started 
     {
-        id: 67,
+        id: 22,
         image: story1,
         title: 'Success Story 1',
         modal_heading:'Success Story 1',
@@ -435,7 +278,7 @@ export const projectsData = [
         category: 'Career Guidelines',
     },
     {
-        id: 67,
+        id: 23,
         image: story2,
         title: 'Success Story 2',
         modal_heading:'Success Story 2',
@@ -445,7 +288,7 @@ export const projectsData = [
         category: 'Career Guidelines',
     },
     {
-        id: 67,
+        id: 24,
         image: story3,
         title: 'More Success Stories',
         modal_heading:'More Success Stories',
@@ -455,6 +298,165 @@ export const projectsData = [
         category: 'Career Guidelines',
     },
     // career giuded ended
+
+    // Publication id's from  1-19
+    {
+        id: 25,
+        image: ICTIEE,
+        title: 'Paper 1',
+        modal_heading:'Title - “Providing adaptable curriculum enrichment through Teaching-Learning-Evaluation”',
+        details: 'Publication - ICTIEE 2023 (Selected for conference held in Mysore on 6th January 2023)',
+        category: 'Publication',
+    },
+    {
+        id: 26,
+        image: IJRAR,
+        title: 'Paper 2',
+        modal_heading:'Title -“Future of Self Driving Vehicles in India”',
+        details: 'Publication -  IJRAR, 2022 ',
+        category: 'Publication',
+    },
+    {
+        id: 27,
+        image: IJRAR,
+        title: 'Paper 3',
+        modal_heading:'Title -“Review paper on “Data transmission for underwater communication using Li-Fi”',
+        details: 'Publication -  IJRAR, 2022 ',
+        category: 'Publication',
+    },
+    {
+        id: 28,
+        image: ICTACT,
+        title: 'Paper 4',
+        modal_heading:'Title -“Role of educational institutions for Atmanirbhar Bharat ”',
+        details: 'Publication - ICTACT,2022',
+        category: 'Publication',
+    },
+    
+    {
+        id: 29,
+        image: Work1,
+        title: 'Paper 5',
+        modal_heading:'Title -“Review paper on methodologies of tracking and monitoring of carbon credit',
+        details: 'Publication -  Will update soon ',
+        category: 'Publication',
+    },
+    {
+        id: 30,
+        image: ICTACT,
+        title: 'Paper 6',
+        modal_heading:'Title -“Review paper on monitoring Animal migration on earth using scientific equipment on the ISS RS”',
+        details: 'Publication -  ICTACT, 2022  ',
+        category: 'Publication',
+    },
+    {
+        id: 31,
+        image: Work1,
+        title: 'Paper 7',
+        modal_heading:'Title - “Review Paper on Crowd Management Using Mob-Analyzer”',
+        details: 'Publication -   Will update soon ', // JEITSM,2022
+        category: 'Publication',
+    },
+    {
+        id: 32,
+        image: ICTACT,
+        title: 'Paper 8',
+        modal_heading:'Title -“Review paper on Screen less Display”',
+        details: 'Publication -   ICTACT, 2022  ',
+        category: 'Publication',
+    },
+    {
+        id: 33,
+        image: ICTACT,
+        title: 'Paper 9',
+        modal_heading:'Title -“Review paper on monitoring forest by remote sensing”',
+        details: 'Publication -  ICTACT, 2022',
+        category: 'Publication',
+    },
+    {
+        id: 34,
+        image: ICTACT,
+        title: 'Paper 10',
+        modal_heading:'Title -“5G Frameworks & Network Management using AI”',
+        details: 'Publication -  ICTACT,2022 ',
+        category: 'Publication',
+    },
+    {
+        id: 35,
+        image: CPGCON,
+        title: 'Paper 11',
+        modal_heading:'Title -“Development of Recommender System based on Meta-Algorithmic Approach”',
+        details: 'Publication -  CPGCON 16  ',
+        category: 'Publication',
+    },
+   
+    {
+        id: 36,
+        image: ICTACT,
+        title: 'Paper 12',
+        modal_heading:'Title -“Review paper on a Block chain as a cyber defence”',
+        details: 'Publication -   ICTACT, 2022',
+        category: 'Publication',
+    },
+    
+    {
+        id: 37,
+        image: Work1,
+        title: 'Paper 13',
+        modal_heading:'Title -“Technology and COVID – 19”',
+        details: 'Publication -  Will update soon ,2020 ',
+        category: 'Publication',
+    },
+    {
+        id: 38,
+        image: ICTACT,
+        title: 'Paper 14',
+        modal_heading:'Title -“Review paper on Hive Interface”',
+        details: 'Publication -   ICTACT, 2022  ',
+        category: 'Publication',
+    },
+    {
+        id: 39,
+        image: IJARCCE,
+        title: 'Paper 15',
+        modal_heading:'Title - “Meta-Algorithmic approach for development of recommender system”',
+        details: 'Publication -   IJARCCE, 2016 ',
+        category: 'Publication',
+    },
+    {
+        id: 40,
+        image: IJARCCE,
+        title: 'Paper 16',
+        modal_heading:'Title - “A Survey on Recommender System”',
+        details: 'Publication -  IJARCCE, 2016 ',
+        category: 'Publication',
+    },
+    {
+        id: 41,
+        image: ICRTET,
+        title: 'Paper 17',
+        modal_heading:'Title -“Opinion Mining - The Customer Review System”',
+        details: 'Publication -  ICRTET,2014 ',
+        category: 'Publication',
+    },
+    {
+        id: 42,
+        image: Work1,
+        title: 'Paper 18',
+        modal_heading:'Title - “Face identification based on lip movement features”',
+        details: 'Publication - will update soon , 2014 ',
+        category: 'Publication',
+    },
+    {
+        id: 43,
+        image: ICTIEE,
+        title: 'Paper 19',
+        modal_heading:'Title -“Providing adaptable curriculum enrichment through Teaching-Learning-Evaluation”',
+        details: ' Publication - ICTIEE 2023 (Selected for conference held in Mysore on 6th January 2023)',
+        category: 'Publication',
+    },
+    // Publication section finished 
+
 ];
 
 export const projectsNav = [
