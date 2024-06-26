@@ -12,7 +12,10 @@ const Modal = ({ show, onClose, project }) => {
         <span className="close-icon" onClick={onClose}>&times;</span>
         <h4 className='modal-title'><i>{project.modal_heading}</i></h4>
         
-        <p className='details'>{project.details}</p>
+        <h4 className='details'>{project.details}</h4>
+
+        <img className='modal_image' src={project.modal_image}/> 
+        <p className='content'>{project.content}</p>
       </div>
     </div>
   );

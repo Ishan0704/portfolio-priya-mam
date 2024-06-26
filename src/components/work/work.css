@@ -114,6 +114,16 @@
     color: var(--text-color);
     margin-top: var(--mb-2);
   }
+
+  .modal_image{
+    margin-top: var(--mb-2);
+    margin-bottom: var(--mb-1);
+    border: 1px solid var(--title-color);
+  }
+
+  .content{
+    margin-top: var(--mb-2);
+  }
   
 
 /*=============== BREAKPOINTS ===============*/
