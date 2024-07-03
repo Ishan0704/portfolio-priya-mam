@@ -31,7 +31,7 @@
 .work__card{
     background-color: var(--container-color);
     border-radius: 1px solid rgba(0,0,0,0.1);
-    padding: 1.25rem;
+    padding: 1rem;
     border-radius: 1rem;
 }
 
@@ -131,7 +131,7 @@
 @media screen and (max-width: 1024px) {
     
     .work__container{
-        grid-template-columns: repeat(2, max-content);
+        grid-template-columns: repeat(2, 0.9fr);
         gap: 1rem;
     }
     .work__img{
@@ -145,7 +145,7 @@
   
   @media screen and (max-width: 768px) {
     .work__container{
-        grid-template-columns: repeat(1, max-content);
+        grid-template-columns: repeat(1, 0.9fr);
         gap: 1rem;
     }
     .work__img{

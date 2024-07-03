@@ -138,7 +138,7 @@
   @media screen and (max-width: 576px) {
     
     .subject__container{
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1,0.9fr);
         gap: 1rem;
         justify-self: center;
     }
