@@ -5,6 +5,7 @@
     left:0;
     z-index: var(--z-fixed);
     background-color: var(--body-color);
+    height: 55px;
 }
 
 .nav{
@@ -36,6 +37,10 @@
     font-weight: var(--font-medium);
     transition: 0.3s;
 }
+.nav__container{
+    height: 40px;
+    align-items: bottom;
+}
 
 .nav__icon,
 .nav__close,
@@ -43,6 +48,9 @@
     display: none;
 }
 
+.nav__item:hover{
+    border-top: 2px solid rgb(81, 85, 80);
+}
 
 /* Actibe-Link */
 
@@ -111,6 +119,9 @@
     .nav__close,
     .nav__toggle{
         display: block;
+    }
+    .nav__item:hover{
+        border-top: 0;
     }
 }
 
